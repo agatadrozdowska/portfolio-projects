@@ -1,0 +1,203 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+#header-img {
+    width: 300px;
+    height: 70px;
+}
+
+nav {
+    float: right;
+    padding-right: 70px;
+    font-size: 1.4em;
+    margin-top: 15px;
+}
+
+a {
+    padding-left: 70px;
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    margin-top: 100px;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 50px;
+}
+
+input {
+    display: block;
+}
+
+#email {
+    width: 300px;
+    height: 30px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#submit {
+    width: 150px;
+    height: 40px;
+    margin: auto;
+    background-color: orange;
+    border-radius: 3px;
+    border: 1px solid orange;
+    font-size: 1.2em;
+}
+
+section {
+    width: 70%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.image-container {
+    width: 20%;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    font-size: 40px;
+    color: orange;
+}
+
+.text {
+    justify-content: flex-start;
+    text-align: justify;
+}
+
+#video-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#prices {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 30%;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.caption {
+    height: 20%;
+    margin-bottom: 10%;
+    background-color: #dddcda;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+span {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.price p {
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: #f6d623;
+    border: 1px solid #f6d623;
+    border-radius: 2px;
+    width: 40%;
+    height: 40px;
+    font-size: 1.1em;
+}
+
+footer {
+    width: 75%;
+    height: 80px;
+    margin: auto;
+    background-color: #dddcda;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+}
+
+#copyright {
+    padding-right: 40px;
+    color: #5a5e63;
+}
+
+
+@media (max-width: 767px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    a {
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+
+    #features, #video-container {
+        width: 80%;
+    }
+
+    #prices {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box {
+        margin-bottom: 20px;
+        width: 50%;
+    }
+
+}
+
+
+
+
